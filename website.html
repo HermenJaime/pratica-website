@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página com Barra de Navegação</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            margin: 0;
+            padding: 40px;
+            background-color: green;
+            color: white;
+            text-align: center;
+        }
+        nav{
+            margin: 0;
+            background-color: rgb(75, 75, 75);
+            overflow: hidden;
+        }
+        nav>a{
+            margin: 0;
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+            display: block;
+            float: left;
+        }
+        nav>a:hover{
+            background-color: rgb(0, 83, 0);
+        }
+        main{
+            margin: auto;
+            padding-bottom: 100px;
+            padding: 43px 10px;
+            background-color: lightgray;
+            max-width: 900px;
+            /*height: 67.1vh;*/
+            text-align: center;
+        }
+        #h1{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        main>h1 span{
+            color: green;
+        }
+        main img{
+            margin-top: 20px;
+            width: 300px;
+        }
+        div>p{
+            color: white;
+            padding-top: 140px;
+        }
+        footer{
+            margin: 0;
+            padding: 20px;
+            background-color: rgb(75, 75, 75);;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Play Games Studios</h1>
+        <p>(Nome fictício)</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Quem Somos?</a>
+        <a href="#">Produtos</a>
+        <a href="#">Contatos</a>
+    </nav>
+    <main>
+        <h1 id="h1">Como a indústria de games coloca o Brasil no <span>jogo da economia criativa mundial.</span></h1><br>
+
+        <h2>Uma indústria que você acha que já conhece</h2><br>
+        <p>A indústria de games no Brasil cresceu e está
+            impulsionando o desenvolvimento de negócios
+            inovadores de norte a sul. E se você acha que esse
+            avanço se restringe apenas aos jogos de lazer em
+            nossos celulares, pense novamente. <strong>Nosso jogo vai muito além dos games.</strong></p>
+        <p>O ambiente de negócios das desenvolvedoras de
+            jogos do Brasil gera renda acima da média nacional,
+            empregos competitivos na nova economia
+            e impacta vários mercados, incluindo saúde,
+            aplicações industriais, educação corporativa e outros.</p>
+        <p>Atualmente, o Brasil representa apenas 1,5% do
+            mercado global de jogos, que movimentou quase
+            US$200 bilhões em 2022. </p>
+        
+        <img src="regioes.png" alt="Mapa de regiões com capacidade de produção da indústria de games">
+    </main>
+    <footer>
+        <p>@ 2023 - Todos os direitos reservados</p>
+        <p>Endereço Rua Exemplos 123 -  Cidade, BR</p>
+    </footer>
+</body>
+</html>
